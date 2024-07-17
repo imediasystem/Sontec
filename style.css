@@ -248,34 +248,19 @@ h3 {
 	transition: transition;
 }
 
-/* Nagłówek strony */
+/* Nawigacja */
 
-.top {
+.nav {
 	background-color: black;
-	margin: 0 0;
-	padding: 0 0;
+	vertical-align: center;
+	margin: 0 10px;
+	padding: 15px 0;
 	width: 100%;
 	height: auto;
 	position: fixed;
 	left: 0;
 	top: 0;
 	z-index: 999;
-}
-
-/* Logo */
-
-.logo {
-	vertical-align: top;
-	margin: 0;
-	width: auto;
-}
-
-/* Nawigacja */
-
-.nav {
-	vertical-align: center;
-	margin: 0 10px;
-	width: auto;
 }
 
 .nav ul {
@@ -286,7 +271,7 @@ h3 {
 .nav ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 30px;
 	position: center;
 }
 
@@ -298,6 +283,7 @@ h3 {
 	width: auto;
 	height: auto;
 	padding: 5px;
+	font-size: 20px;
 }
 
 .nav ul li a:hover {
@@ -310,12 +296,12 @@ h3 {
 
 section {
 	overflow: auto;
-	padding-top: 100px;
+	padding: 20px;
 }
 
 .banner {
 	position: relative;
-	
+	padding-top: 70px;
 }
 
 .offer {
@@ -328,7 +314,6 @@ section {
 
 .gallery {
 	position: relative;
-  	padding-top: 100px;
   	padding-bottom: 30px;
 }
 
