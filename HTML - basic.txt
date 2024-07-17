@@ -1,0 +1,219 @@
+<!-- Naglowek strony -->
+		
+		<header class="top" id="top">
+			<div class="container">
+				<div class="col-half">
+				
+				<!-- Logo -->
+				
+					<div class="logo">
+						<img src="https://i.postimg.cc/L4bZD4zp/logo.png" alt="logo firmy SONTEC">
+					</div>
+				</div>
+				
+				<!-- Nawigacja strony -->
+				
+				<div class="col-half">
+					<div class="nav">
+						<ul>
+							<li><a href="#banner">O NAS</a></li>
+							<li><a href="#offer">OFERTA</a></li>
+							<li><a href="#profit">KORZYŚCI</a></li>
+							<li><a href="#gallery">GALERIA</a></li>
+							<li><a href="#process">5 KROKÓW</a></li>
+							<li><a href="#contact">KONTAKT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+			
+			
+		<!-- Banner -->
+		<section class="banner" id="banner">
+			<div class="container">
+				<h1 class="section-title">CZYSTA ENERGIA W ZASIĘGU TWOJEGO PORTFELA</h1>
+				<h2>KOMPLEKSOWE USŁUGI Z ZAKRESU</h2>
+				<h2>montażu, obsługi, renowacji i dozoru wszelkich instalacji energetycznych</h2>
+				
+				<div>
+					<img src="https://i.postimg.cc/JzyxxdyT/energy-house-700.png">
+				</div>
+				
+				<a href="#advantage" class="btn">DLACZEGO MY</a>
+				
+			</div>
+		</section>
+			
+			 
+		<!-- Oferta -->
+		<section class="offer" id="offer">
+			<div class="container">
+				<h1 class="section-title">SKORZYSTAJ Z NASZEJ OFERTY</h1>
+				
+				<div class="col-sixth">
+					<i class="fa-solid fa-solar-panel fa-5x"></i>
+					<h3>Fotowoltaika</h3>
+				</div>
+				<div class="col-sixth">
+					<i class="fa-solid fa-arrow-up-from-water-pump fa-5x"></i>
+					<h3>Pompy ciepła</h3>
+				</div>
+				<div class="col-sixth">
+					<i class="fa-solid fa-fan fa-5x"></i>
+					<h3>Klimatyzacja</h3>
+				</div>
+				<div class="col-sixth">
+					<i class="fa-solid fa-charging-station fa-5x"></i>
+					<h3>Ładowarki</h3>
+				</div>
+				<div class="col-sixth">
+					<i class="fa-solid fa-temperature-arrow-up fa-5x"></i>
+					<h3>Ogrzewanie</h3>
+				</div>
+				<div class="col-sixth">
+					<i class="fa-solid fa-car-battery fa-5x"></i>
+					<h3>Akumulatory</h3>
+				</div>
+			</div>
+		</section>
+			
+			
+		<!-- Korzysci klienta -->
+		<section class="profit" id="profit">
+			<div class="container">
+				<h1 class="section-title">TWOJE KORZYŚCI Z WŁASNYCH ŹRÓDEŁ ENERGII</h1>
+				<div class="col-half">
+					<div class="list6">
+						<ul>
+							<li><h3>Czysta energia</h3></li>
+							<p>Produkcja prądu ze słońca to sposób na zwiększenie udziału czystej energii w domowym miksie energetycznym.</p>
+							<li><h3>Pozytywny wpływ na środowisko</h3></li>
+							<p>Fotowoltaika przyczynia się do redukcji emisji dwutlenku węgla i innych gazów cieplarnianych.</p>
+							<li><h3>Niższe rachunki za prąd</h3></li>
+							<p>Zastąpienie nawet części wykorzystywanej energii prądem z fotowoltaiki przynosi kilkudziesięcioprocentowe oszczędności na rachunkach za prąd.</p>
+							<li><h3>Większa wartość nieruchomości</h3></li>
+							<p>Montaż paneli fotowoltaicznych i/lub pompy ciepła może podnieść wartość nieruchomości lub działki.</p>
+							<li><h3>Niższe koszty eksploatacji</h3></li>
+							<p>Pompy ciepła są tańsze w eksploatacji niż systemy oparte na spalaniu.</p>
+						</ul>
+					</div>
+				</div>
+							
+				<div class="col-half">
+					<div class="list6">
+						<ul>
+							<li><h3>Dwa systemy w jednym: ogrzewanie i chłodzenie</h3></li>
+							<p>Pompy ciepła mogą działać zarówno jako źródło ciepła w sezonie zimowym, jak i jako klimatyzator w lecie.</p>
+						</ul>
+					</div>
+					<br>
+					<img src="https://i.postimg.cc/4dzXrgdB/pompa-fotowoltaika-450-300.png" alt="pompa_ciepla-fotowoltaika">
+				</div>
+			</div>
+		</section>
+			
+			
+		<!-- Nasze zalety -->
+		<section class="gallery" id="gallery">
+			<div class="container">
+				<h1 class="section-title">GALERIA</h1>
+				  <div class="carousel">
+      <div class="carousel-cell">
+          <img src="https://i.postimg.cc/vBkfpMN1/Fotowoltaika-1.jpg" alt="Fotowoltaika 1" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://i.postimg.cc/MTfHhBRw/Fotowoltaika-2.jpg" alt="Fotowoltaika 2" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://i.postimg.cc/NFY3thV4/Fotowoltaika-3.jpg" alt="Fotowoltaika 3" />
+  </div>       
+  <div class="carousel-cell">
+    <img src="https://i.postimg.cc/kGcmZMj9/Pompa-1.jpg" alt="Pompa 1" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://i.postimg.cc/fyb2zwzM/Kotlownia-1.jpg" alt="Kotlownia 1" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://i.postimg.cc/h4wbz8ML/Kotlownia-2.jpg" alt="Kotlownia 2" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://i.postimg.cc/9FQ0hsy1/Kotlownia-3.jpg" alt="Korlownia 3" />
+  </div>
+</div>
+			
+			
+		<!-- Przebieg procesu -->
+		<section class="process" id="process">
+			<div class="container">
+				<h1 class="section-title">5 KROKÓW DO CZYSTEJ ENERGII DLA TWOJEGO DOMU</h1>
+				<div class="col-half">
+					<img src="https://i.postimg.cc/CLvnvj9d/fotowoltaika-schemat-instalacji-400.png" alt="fotowoltaika-schemat-instalacji">
+				</div>
+				<div class="col-half">
+					<div class="list5">
+						<ul>
+							<li><span><h3><i class="fa-solid fa-1"></i> - Analiza potrzeb</h3></li>
+							<p>Dojedziemy, skonsultujemy oraz wycenimy inwestycję.</p>
+							<li><h3><i class="fa-solid fa-2"></i> - Umowa i dotacje</h3></li>
+							<p>Uzgodnimy warunki umowy i pomożemy zdobyć środki z dotacji.</p>
+							<li><h3><i class="fa-solid fa-3"></i> - Projekt</h3></li>
+							<p>Dostosujemy cały projekt do twoich warunków.</p>
+							<li><h3><i class="fa-solid fa-4"></i> - Montaż</h3></li>
+							<p>Wykonamy szczegółowy montaż całego systemu.</p>
+							<li><h3><i class="fa-solid fa-5"></i> - Uruchomienie</h3></li>
+							<p>Nasi specjaliści wykonają pomiary, zrobią testy i rozruch intalacji.</p>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+			
+		<!-- Kontakt -->
+		<section class="contact" id="contact">
+			<div class="container">
+				<h1 class="section-title">SKONTAKTUJ SIĘ Z NAMI</h1>
+				<h2>WYŚLIJ E-MAIL, FORMULARZ KONTAKTOWY LUB ZADZWOŃ</h2>
+				<h2>ODPOWIEMY I UMÓWIMY SIĘ NA SPOTKANIE</h2>
+				<h2>PRZYJEDZIEMY DO CIEBIE LUB ZAPROSIMY CIĘ DO BIURA</h2>
+				<br>
+				<br>
+				<!-- Formularz kontaktowy -->
+				<div class="col-half">
+					<h3>Formularz kontaktowy</h3>
+					<div class="form">
+						<form action=index.php>
+							<label for="name"><strong>Imię</strong></label>
+							<input type="text" name="name"><br><br>
+							<label for="surname"><strong>Nazwisko</strong></label>
+							<input type="text" surname="surname"><br><br>
+							<label for="email"><strong>e-mail</strong></label>
+							<input type="text" name="email"><br><br>
+							<label for="phone"><strong>Nr telefonu</strong></label>
+							<input type="number" name="phone"><br><br>
+							<input type="checkbox" id="zazn">
+							<label for="zazn"><strong>Akceptuję regulamin</strong></label><br><br>
+							<button type="submit" class="btn"><a>WYŚLIJ</a></button>
+						</form>
+					</div>
+				</div>
+					
+				<div class="col-half">
+					<h3>Znajdź nas</h3>
+					<!-- Mapa Google -->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20363.044777273062!2d20.032084667943646!3d50.359457274658645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abd7463cd8f5%3A0xed583a6fe624ebd6!2sSontec!5e0!3m2!1spl!2sde!4v1716401161716!5m2!1spl!2sde" 
+						width="500" height="367" style="border: 2px white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+						</iframe>
+				</div>
+			</div>
+		</section>
+     
+    <footer class="bottom">
+			<div class="container">
+          <div class="col-quarter">
+					<img src="https://i.postimg.cc/L4bZD4zp/logo.png" alt="logo firmy SONTEC">
+				</div>
+      </div>
+		</footer>
+			

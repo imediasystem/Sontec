@@ -1,0 +1,381 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* Globalne style strony */
+
+body, html {
+	background: #1e1e1e;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 16px;
+	transition: all 0.5s;
+}
+
+
+/* Globalne style tekstu */
+
+p {
+	margin-top: 5px;
+	margin-left: 20px;
+	text-align: justify;
+}
+
+h1 {
+	margin: 20px auto;
+	text-align: center;
+	font-size: 2.2em;
+	font-weight: bold;
+	width: 95%;
+	height: auto;
+	padding: 10px;
+	background: #B28C0F;
+	box-shadow: 0.1em 0.1em 0.1em grey;
+	border-radius: 10px;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+h3 {
+	color: #7F90A4;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+/* Kontener, kolumny, listy */
+
+.container	{
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.col-half {
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+	width: auto;
+	
+}
+
+.top .col-half {
+	vertical-align: bottom;
+	margin: 10px 20px;
+}
+
+.contact .col-half {
+	vertical-align: top;
+	width: 45%;
+	text-align: left;
+	
+}
+
+.contact .col-half p {
+	text-align: left;
+	padding-left: 150px;
+}
+
+.contact .col-half h3 {
+	text-align: left;
+	padding-left: 150px;
+}
+
+.col-third {
+	display: inline-block;
+	margin: 10px 50px;
+	text-align: center;
+}
+
+.col-sixth {
+	display: inline-block;
+	margin: 40px 20px 0 20px;
+	text-align: center;
+}
+
+.col-sixth i {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  margin: 20px 0;
+  background: #B28C0F;
+  border-radius: 50%;
+  box-shadow: 2px 4px 10px 4px grey;
+  text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.col-sixth i:hover {
+  background-color: darken(#B28C0F, 10%);
+  animation: roll 2s infinite;
+  transform: rotate(30deg);
+  transition: transition;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Listy */
+
+.list5 dl {
+	text-align: left;
+	list-style-image: none;
+	margin-left: 20px;
+}
+
+.list5 i {
+	color: #B28C0F;
+}
+
+.list5 dt {
+	color: #7F90A4;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.list5 dd {
+	margin-left: 30px;
+}
+
+.list6 dl {
+	text-align: left;
+	list-style-type: none;
+	margin: auto;
+	width: 480px;
+}
+
+.list6 dt {
+	color: #7F90A4;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.list6 dd {
+	margin-left: 20px;
+}
+
+/* Przyciski */
+
+.btn {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding: 8px 20px;
+	margin: 20px 0;
+	background: #B28C0F;
+	box-shadow: 0.1em 0.1em 0.1em grey;
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0.1em 0.1em 0.1em black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn:hover {
+	color: darken(#B28C0F, 20%);
+	color: #B28C0F;
+	transition: transition;
+}
+
+/* Nagłówek strony */
+
+.top {
+	background-color: black;
+	margin: 0 0;
+	padding: 0 0;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+
+/* Logo */
+
+.logo {
+	vertical-align: top;
+	margin: 0;
+	width: auto;
+}
+
+/* Nawigacja */
+
+.nav {
+	vertical-align: center;
+	margin: 0 10px;
+	width: auto;
+}
+
+.nav ul {
+	margin: auto;
+	padding: auto;
+}
+
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+	position: center;
+}
+
+.nav ul li a {
+	color: white;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	padding: 5px;
+}
+
+.nav ul li a:hover {
+	color: darken(#B28C0F, 20%);
+	color: #B28C0F;
+	transition: transition;
+}
+
+/* Sekcje */
+
+section {
+	overflow: auto;
+	padding-top: 100px;
+}
+
+.banner {
+	position: relative;
+	
+}
+
+.offer {
+	position: relative;
+}
+
+.profit {
+	position: relative;
+}
+
+.gallery {
+	position: relative;
+  	padding-top: 100px;
+  	padding-bottom: 30px;
+}
+
+.carousel {
+  margin: 0 15px;
+}
+
+.carousel-cell {
+	margin: 30px 0;
+	overflow: hidden;
+}
+
+.carousel-cell img {
+	display: block;
+	height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
+
+.process {
+	position: relative;
+}
+
+.contact {
+	position: relative;
+}
+
+.iframe {
+	border: 2px solid #7F90A4;
+}
+
+/* Stopka strony */
+
+.bottom {
+	background-color: black;
+}
+
+.col-third p {
+	margin-left: 0;
+	text-align: left;
+}
+
+.col-third h3 {
+	margin-left: 0;
+	text-align: left;
+}
