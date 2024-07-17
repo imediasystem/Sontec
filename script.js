@@ -1,18 +1,7 @@
 $(document).ready(function(){
 	
 	$(".banner h2").hide().slideToggle(2000);
-	
-	$("#send").click(function(event){
-		event.preventDefault();
-		var name = $("#name").val();
-		var surname = $("#surname").val();
-		var email = $("#email").val();
-		var phone =  $("#phone").val();
-		alert(name);
-		alert(surname);
-		alert(email);
-		alert(phone);
-	});
+		
 });
 
 
