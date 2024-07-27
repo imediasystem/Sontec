@@ -101,7 +101,7 @@ h3 {
 	text-shadow: 0.1em 0.1em 0.1em black;
 }
 
-/* Kontener, kolumny, listy */
+/* Kontener */
 
 .container	{
 	max-width: 1080px;
@@ -109,40 +109,35 @@ h3 {
 	padding: 0 10px;
 }
 
+/* Kolumny */
+
 .col-half {
 	display: inline-block;
 	margin: 20px;
 	vertical-align: top;
 	width: auto;
-	
-}
-
-.top .col-half {
-	vertical-align: bottom;
-	margin: 10px 20px;
 }
 
 .contact .col-half {
 	vertical-align: top;
 	width: 45%;
 	text-align: left;
-	
-}
-
-.contact .col-half p {
-	text-align: left;
-	padding-left: 150px;
-}
-
-.contact .col-half h3 {
-	text-align: left;
-	padding-left: 150px;
 }
 
 .col-third {
 	display: inline-block;
 	margin: 10px 50px;
 	text-align: center;
+}
+
+.col-third p {
+	margin-left: 0;
+	text-align: left;
+}
+
+.col-third h3 {
+	margin-left: 0;
+	text-align: left;
 }
 
 .col-sixth {
@@ -254,7 +249,7 @@ h3 {
 	background-color: black;
 	vertical-align: center;
 	margin: 0 10px;
-	padding: 15px 0;
+	padding: 20px 0;
 	width: 100%;
 	height: auto;
 	position: fixed;
@@ -296,7 +291,7 @@ h3 {
 
 section {
 	overflow: auto;
-	padding: 20px;
+	padding: 10px;
 }
 
 .banner {
@@ -318,7 +313,7 @@ section {
 }
 
 .carousel {
-  margin: 0 15px;
+	margin: 0 15px;
 }
 
 .carousel-cell {
@@ -331,10 +326,13 @@ section {
 	height: 200px;
 }
 
-@media screen and ( min-width: 768px ) {
+@media screen and ( min-width: 800px ) {
   .carousel-cell img {
     height: 400px;
   }
+  .contact .col-half p {
+	text-align: left;
+	}
 }
 
 .process {
@@ -343,6 +341,20 @@ section {
 
 .contact {
 	position: relative;
+}
+
+.contact .col-sixth {
+	margin: 0 50px 0 50px;
+}
+
+.contact .col-half p {
+	text-align: left;
+	padding-left: 150px;
+}
+
+.contact .col-half h3 {
+	text-align: left;
+	padding-left: 150px;
 }
 
 .iframe {
@@ -355,12 +367,3 @@ section {
 	background-color: black;
 }
 
-.col-third p {
-	margin-left: 0;
-	text-align: left;
-}
-
-.col-third h3 {
-	margin-left: 0;
-	text-align: left;
-}
