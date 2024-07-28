@@ -101,6 +101,11 @@ h3 {
 	text-shadow: 0.1em 0.1em 0.1em black;
 }
 
+.section-title {
+	width: 95%;
+	height: auto;
+}
+
 /* Kontener */
 
 .container	{
@@ -115,13 +120,8 @@ h3 {
 	display: inline-block;
 	margin: 20px;
 	vertical-align: top;
-	width: auto;
-}
-
-.contact .col-half {
-	vertical-align: top;
+	align-items: center;
 	width: 45%;
-	text-align: left;
 }
 
 .col-third {
@@ -142,7 +142,7 @@ h3 {
 
 .col-sixth {
 	display: inline-block;
-	margin: 40px 20px 0 20px;
+	margin: 40px 20px 20px 20px;
 	text-align: center;
 }
 
@@ -314,6 +314,7 @@ section {
 
 .carousel {
 	margin: 0 15px;
+	width: 95%;
 }
 
 .carousel-cell {
@@ -323,20 +324,12 @@ section {
 
 .carousel-cell img {
 	display: block;
-	height: 200px;
-}
-
-@media screen and ( min-width: 800px ) {
-  .carousel-cell img {
-    height: 400px;
-  }
-  .contact .col-half p {
-	text-align: left;
-	}
+	height: 400px;
 }
 
 .process {
 	position: relative;
+	align-items: center;
 }
 
 .contact {
@@ -344,21 +337,28 @@ section {
 }
 
 .contact .col-sixth {
-	margin: 0 50px 0 50px;
+	margin: 0 30px 10px 30px;
+}
+
+.contact .col-half {
+	vertical-align: top;
+	text-align: center;
+	align-items: center;
 }
 
 .contact .col-half p {
-	text-align: left;
-	padding-left: 150px;
+	text-align: center;
 }
 
 .contact .col-half h3 {
-	text-align: left;
-	padding-left: 150px;
+	text-align: center;
 }
 
-.iframe {
+iframe {
+	position: relative;
 	border: 2px solid #7F90A4;
+	text-align: center;
+	align-items: center;
 }
 
 /* Stopka strony */
@@ -367,3 +367,59 @@ section {
 	background-color: black;
 }
 
+@media only screen and (max-width: 800px) {
+	.carousel-cell img {
+	  height: 250px;
+	}
+	
+	.col-half {
+		width: 85vw;
+	}
+
+	.contact .col-half {
+		position: relative;
+		text-align: center;
+		align-items: center;
+	}
+
+	.profit img {
+		width: 85vw;
+	}
+
+	.list6 dl {
+		width: 85vw;
+	}
+
+	.process img {
+		width: 85vw;
+	}
+	
+	.list5 dl {
+		width: 85vw;
+		margin-left: 0;
+	}
+
+	iframe {
+		position: relative;
+		text-align: center;
+		align-items: center;
+		width: 85vw;
+	}
+
+	.bottom .col-third {
+		margin: 10px 0;
+		width: 85vw;
+	}
+
+	.bottom img {
+		width: 85vw;
+	}
+
+	img {
+		width: 95vw;
+	}
+
+	.contact .col-sixth {
+		margin: 0 20px 0 20px;
+	}
+}
