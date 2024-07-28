@@ -31,8 +31,8 @@ flkty.on( 'scroll', function() {
 (function(){
 	'use strict';
 	
-	var navSelector = '.nav';
-	var linksSelector = '.nav a';
+	var navSelector = '.menu';
+	var linksSelector = '.menu a';
 	var scrollSpeed = 30;
 	
 	var timer, targetPosition;
@@ -74,3 +74,12 @@ flkty.on( 'scroll', function() {
 	}
 	
   })();
+
+
+  var collapsible = document.querySelectorAll(".collapsible");
+collapsible.forEach((item) =>
+{
+    item.addEventListener("click", function (){
+        this.classList.toggle("collapsible--expanded")
+    })
+})

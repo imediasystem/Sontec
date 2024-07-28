@@ -10,6 +10,14 @@
           "iframe[loading]"
         ]
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "max-width: fit-content"
+        ]
+      }
     ]
   }
 }
