@@ -60,19 +60,16 @@ body, html {
 	font-size: 35px;
 	font-family: 'Cabin', sans-serif;
 	font-size: 16px;
-	padding: 0;
-	margin: 0;
 	overflow-x: hidden;
 	transition: all 0.5s;
 }
 
 * {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	transition: all 0.5s;
 } 
-
-*:focus {
-	box-shadow: none;
-  }
 
 /* Global Text Settings */
 
@@ -112,7 +109,7 @@ h3 {
 }
 
 .section-title {
-	width: 94%;
+	width: 95%;
 	height: auto;
 }
 
@@ -163,15 +160,15 @@ h3 {
   margin: 20px 0;
   background: #B28C0F;
   border-radius: 50%;
-  box-shadow: 0.1em 0.1em 0.1em grey;
+  box-shadow: 2px 4px 10px 4px grey;
   text-shadow: 0.1em 0.1em 0.1em black;
 }
 
 .col-sixth i:hover {
-  background-color: #5a4707;
+  background-color: darken(#B28C0F, 10%);
   animation: roll 2s infinite;
   transform: rotate(30deg);
-  transition: all 0.5s;
+  transition: transition;
 }
 
 @keyframes roll {
@@ -243,13 +240,13 @@ h3 {
 	text-decoration: none;
 	color: white;
 	text-shadow: 0.1em 0.1em 0.1em black;
-	font-size: 1rem;
 	font-weight: bold;
 	text-align: center;
 }
 
 .btn:hover {
-	background-color: #5a4707;
+	background-color: darken(#B28C0F, 20%);
+	color: #B28C0F;
 	transition: 0.5s ease-in-out;
 }
 
@@ -357,53 +354,31 @@ section {
 	align-items: center;
 }
 
-.contacts {
+.contact {
 	position: relative;
 }
 
-.contacts .col-sixth {
+.contact .col-sixth {
 	margin: 0 30px;
 }
 
-.contacts-wrapper {
-	display: flex;
-	max-width: 100%;
-}
-
-.contact {
-	flex: 0 0 27.333333%;
-	max-width: 33.333333%;
+.contact .col-half {
+	vertical-align: top;
 	text-align: center;
-	border-radius: 10px;
-	box-shadow: 0.1em 0.1em 0.1em grey;
-	background-color: #B28C0F;
-	margin: 3%;
-	padding: 10px;
+	align-items: center;
 }
 
-.contact:hover {
-	background-color: #5a4707;
-	transition: all 0.5s;
-}
-
-.contact h3 {
-	color: white;
-	letter-spacing: 2px;
-}
-
-.contact p {
-	margin: 0;
-	padding: 0;
+.contact .col-half p {
 	text-align: center;
-	font-weight: bold;
-	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.contact .col-half h3 {
+	text-align: center;
 }
 
 iframe {
+	position: relative;
 	border: 2px solid #7F90A4;
-	width: 94%; /* takes precedence over the width set with the HTML width attribute */
-	height: 25vh;
-	margin: 0 3%;
 	text-align: center;
 	align-items: center;
 }
@@ -462,7 +437,7 @@ iframe {
 		width: 85vw;
 	}
 
-	.contacts .col-half {
+	.contact .col-half {
 		position: relative;
 		text-align: center;
 		align-items: center;

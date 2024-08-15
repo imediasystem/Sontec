@@ -1,5 +1,7 @@
 $(document).ready(function(){
+	
 	$(".banner h2").hide().slideToggle(2000);
+		
 });
 
 

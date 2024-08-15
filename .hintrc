@@ -2,22 +2,12 @@
   "extends": [
     "development"
   ],
-  "hints": {
-    "compat-api/html": [
-      "default",
-      {
-        "ignore": [
-          "iframe[loading]"
-        ]
-      }
-    ],
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "max-width: fit-content"
-        ]
-      }
-    ]
-  }
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 126",
+    "not firefox <= 127",
+    "not ios_saf <= 17.5",
+    "not safari <= 17.5"
+  ]
 }
