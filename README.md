@@ -1,6 +1,6 @@
 ![www-3](https://github.com/user-attachments/assets/6b37d535-71dc-4079-959f-19f526dd94c8)
 
-## 🔥 Project Name - SONTEC
+## 🔥 Project Name - SONTEC ↗️
 
 See the live version of [SONTEC](https://imediasystem.github.io/Sontec/)
 
@@ -21,11 +21,11 @@ Some projects uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.co
 
 ## 🔗 See also
 
-Are you interested in? See my other projects and visit my website [iMedia SysteM](https://imediasystem.pl/)
+Are you interested in? See my other projects and visit my website [iMedia SysteM](https://imediasystem.pl/) ↗️
 &nbsp;
 
 ## 📝 Feel free to contact me
-Write sth nice ;) Find me on [Linkedin](https://www.linkedin.com/in/krzysztof-graca-47698997/)
+Write sth nice ;) Find me on [Linkedin](https://www.linkedin.com/in/krzysztof-graca-47698997/) ↗️
 &nbsp;
 
 ## 👏 Thanks / Special thanks / Credits
